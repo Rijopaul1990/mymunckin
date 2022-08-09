@@ -1,0 +1,71 @@
+
+.btn-munchkin:hover {
+    transition: 0.3s all;
+    box-shadow: -2px 3px #5a5a5a;
+}
+.btn-munchkin {
+    background: #FF721D;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 0;
+    min-width: 180px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.3s all;
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    z-index: 99999;
+    text-transform: capitalize;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px auto;
+    border: none;
+    text-decoration: none !important;
+}
+.btn-munchkin:before {
+    top: 0;
+    left: 0;
+    right: auto;
+    /*border-radius: 38px 38px 0 0;*/
+}
+.btn-munchkin:hover span {
+    color: #FF721D;
+}
+.btn-munchkin:hover span:before {
+    background: #FF721D;
+    transform: scaleX(.51);
+    transform: scaleX(0.4);
+}
+.btn-munchkin:hover:before {
+    width: 100%;
+    right: 0;
+    left: auto;
+}
+.btn-munchkin:hover:after {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+.btn-munchkin:after {
+    bottom: 0;
+    right: 0;
+    left: auto;
+    /*border-radius: 0 0 38px 38px;*/
+}
+.btn-munchkin:before, .btn-munchkin:after {
+    content: '';
+    background: #fff;
+    height: 50%;
+    width: 0;    z-index: -1;
+    position: absolute;
+    transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -webkit-transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.btn-munchkin:hover {
+    transition: 0.3s all;
+    box-shadow: -2px 3px #5a5a5a;
+    color: #ffffff;
+}

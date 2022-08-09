@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 25" width="6" height="25">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M128.86 150L-231.28 150L-231.28 -352.73L128.86 -352.73L128.86 150Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ed6e70;stroke-dasharray: 3,3 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Clip Group&gt;" clip-path="url(#cp1)">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="shp0" d="M0.7 1.35C3.58 2.05 4.87 3.65 4.58 6.14C4.15 9.89 0.99 8.74 0.7 13.06C0.41 17.38 7.88 20.94 0.69 25.29" />
+			</g>
+		</g>
+	</g>
+</svg>
