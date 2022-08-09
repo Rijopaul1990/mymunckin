@@ -4,7 +4,7 @@
       <!-- Add Order -->
       <div class="row">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css" integrity="sha512-vEia6TQGr3FqC6h55/NdU3QSM5XR6HSl5fW71QTKrgeER98LIMGwymBVM867C1XHIkYD9nMTfWK2A0xcodKHNA==" crossorigin="anonymous">
-         <input type="hidden" id="base_url" value="http://localhost/Mymunchkin/">
+         <input type="hidden" id="base_url" value="<?php echo base_url();?>">
          <div class="col-lg-12">
             <div class="card">
                <div class="card-header">

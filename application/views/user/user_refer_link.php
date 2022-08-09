@@ -94,13 +94,13 @@
                         </div>
                         <ul id="social_share" style="">
                             <li>
-                                <a href="http://www.facebook.com/sharer.php?u=http://localhost/Mymunchkin/db/ivanshi" target="_blank" class="fb"><i class="fab fa-facebook"></i></a>
+                                <a href="http://www.facebook.com/sharer.php?u=<?php echo base_url();?>/db/ivanshi" target="_blank" class="fb"><i class="fab fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="https://api.whatsapp.com/send?phone=&amp;text=http://localhost/Mymunchkin/db/ivanshi" target="_blank" class="wt"><i class="fab fa-whatsapp"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=&amp;text=<?php echo base_url();?>db/ivanshi" target="_blank" class="wt"><i class="fab fa-whatsapp"></i></a>
                             </li>
                             <li>
-                                <a href="http://twitter.com/share?url=http://localhost/Mymunchkin/db/ivanshi&amp;text=My Munchkin &amp;hashtags=My_Munchkin" target="_blank" class="tw"><i class="fab fa-twitter"></i></a>
+                                <a href="http://twitter.com/share?url=<?php echo base_url();?>db/ivanshi&amp;text=My Munchkin &amp;hashtags=My_Munchkin" target="_blank" class="tw"><i class="fab fa-twitter"></i></a>
                             </li>
                         </ul>
                      </form>

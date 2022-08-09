@@ -34,8 +34,8 @@
 	<script src="<?php echo base_url();?>assets/vendor/chart.js/Chart.bundle.min.js"></script>
     <script src="<?php echo base_url();?>assets/js/custom.min.js"></script>
 	<script src="<?php echo base_url();?>assets/js/deznav-init.js"></script>
-    <script src="http://localhost/Mymunchkin/assets/js/slick.min.js"></script>
-    <link rel="stylesheet" href="http://localhost/Mymunchkin/assets/css/slick-theme.min.css">
+    <script src="<?php echo base_url();?>assets/js/slick.min.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/slick-theme.min.css">
 	
 	<!-- Chart piety plugin files -->
     <script src="<?php echo base_url();?>assets/vendor/peity/jquery.peity.min.js"></script>
@@ -118,11 +118,11 @@ $("#flipbook3").turn("next");
 var id;
 var did;
 var pixie = new Pixie({
-    baseUrl: 'http://localhost/Mymunchkin/',
+    baseUrl: '<?php echo base_url();?>',
     crossOrigin: true,
     onSave: function(data, name) {
         $.ajax({
-        url :"http://localhost/Mymunchkin/Users/EditImage",
+        url :"<?php echo base_url();?>Users/EditImage",
         method : "POST",
         data :{ img :data,name:name,id:id },
         beforeSend: function() {
@@ -174,7 +174,7 @@ var pixie = new Pixie({
         leftItems: [
         {
             type: 'image',
-              src: "http://localhost/Mymunchkin/assets/img/logo.png",
+              src: "<?php echo base_url();?>assets/img/logo.png",
             showInCompactMode: true,
         },
         ]
@@ -229,7 +229,7 @@ $('#mobile_album').owlCarousel({
     loop:false,
     margin:10,
     nav:true,
-    navText: ["<img src='http://localhost/Mymunchkin/assets/img/prev.png'>","<img src='http://localhost/Mymunchkin/assets/img/next.png'>"],
+    navText: ["<img src='<?php echo base_url();?>assets/img/prev.png'>","<img src='<?php echo base_url();?>assets/img/next.png'>"],
     dots:false,
     responsive:{
         0:{

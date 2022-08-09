@@ -16,15 +16,15 @@ $menu_cart_count = $cart_count;
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/chartist/css/chartist.min.css">
     <link href="<?php echo base_url();?>assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://localhost/Mymunchkin/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="http://localhost/Mymunchkin/assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="http://localhost/Mymunchkin/assets/css/slick.css">
-    <link rel="stylesheet" href="http://localhost/Mymunchkin/assets/css/slick-theme.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/slick.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/slick-theme.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-    <link rel="stylesheet" type="text/css" href="http://localhost/Mymunchkin/assets/toastr.min.css">
-    <script src="http://localhost/Mymunchkin/assets/toastr.min.js"></script>
-    <link rel="stylesheet" href="http://localhost/Mymunchkin/assets/css/inner.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/toastr.min.css">
+    <script src="<?php echo base_url();?>assets/toastr.min.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/inner.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <Style>
 .album_preview_css{
@@ -112,7 +112,7 @@ position: absolute;
 
 @font-face {
   font-family: DTCCabanaBaby;
-  src: url(http://localhost/Mymunchkin/assets/fonts/DTCCabanaBaby.woff);
+  src: url(<?php echo base_url();?>assets/fonts/DTCCabanaBaby.woff);
 }
 
 .second .main-bg{
